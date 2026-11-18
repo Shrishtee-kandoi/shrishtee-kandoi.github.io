@@ -25,6 +25,12 @@ latest_posts:
   limit: 3
 ---
 
+<style>
+  @media (min-width: 576px) {
+    .profile.float-right { margin-top: -40px; }
+  }
+</style>
+
 Hello there, I'm Shrishtee! I am a bioinformatician and data engineer at the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/), where I'm learning all the cool tricks to decode neurodegenerative diseases.
 
 I'm interested in anything that involves genes, brains, and all things fun. My recent work includes genome-wide and transcriptomic studies of progressive supranuclear palsy (PSP).
