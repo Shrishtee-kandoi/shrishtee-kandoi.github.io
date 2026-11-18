@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://shrishtee-kandoi.github.io/sitemap.xml
