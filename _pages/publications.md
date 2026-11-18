@@ -1,16 +1,18 @@
 ---
-layout: archive
-title: "Publications"
+layout: page
 permalink: /publications/
-author_profile: true
+title: publications
+description: Publications in reverse chronological order.
+nav: true
+nav_order: 1
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<!-- _pages/publications.md -->
 
-{% include base_path %}
+You can also find my articles on [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=shrishtee+kandoi) and [ORCID](https://orcid.org/0009-0001-6194-2718).
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="publications">
+
+{% bibliography %}
+
+</div>
